@@ -2,6 +2,9 @@
   "name": "bun-app",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "start": "bun bin.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
@@ -13,4 +16,3 @@
     "express": "^4.21.2"
   }
 }
-
