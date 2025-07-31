@@ -31,10 +31,10 @@ pm2 start --interpreter bun /home/ubuntu/bin.ts
 
 #### now create launch template.
 
-### In the Autoscaling Group you just created, you can customize how the autoscaling should work :) should it be network based, or should it be cpu based or whatever(just look into it)
-
 ## Now Create a Target Group.
 
 ## Now Create a AutoScaling Group.. (in that you may create a Loadbalancer and attach your Target Group to it).
+
+### In the Autoscaling Group you just created, you can customize how the autoscaling should work :) should it be network based, or should it be cpu based or whatever(just look into it)
 
 ##### everything will work fine if you don't do any mistake.
